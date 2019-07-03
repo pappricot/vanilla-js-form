@@ -1,0 +1,105 @@
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url("./fonts/montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("./fonts/montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url("./fonts/montserrat/Montserrat-Medium.ttf");
+}
+
+/*---------------------------------------------*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: Montserrat-Regular, sans-serif;
+}
+h2 {
+  padding-bottom: 50px;
+}
+
+#content {
+  flex-direction: column;
+}
+
+#formAddVehicle {
+  display: flex;
+  flex-direction: column;
+  background-color: #1abc9c;
+  padding: 20px 20px 20px 20px;
+  margin-bottom: 30px;
+}
+
+.inputs {
+  padding: 20px 0px 20px 0px;
+}
+
+ul {
+  list-style: none;
+  flex-direction: column;
+}
+
+/*---------------------------------------------*/
+.wrap-input1 {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  margin-bottom: 20px;
+}
+
+.input1 {
+  display: block;
+  width: 100%;
+  background: #e6e6e6;
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  border-radius: 25px;
+}
+
+#form-button {
+  min-width: 193px;
+  height: 50px;
+  border-radius: 25px;
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  background: #e6e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+}
+.info-button {
+  height: 30px;
+  width: 60px;
+  border-radius: 15px;
+  font-family: Montserrat-Bold;
+  font-size: 10px;
+  line-height: 1.5;
+  background: #e6e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  padding: 5px 0px 5px 0px;
+}
