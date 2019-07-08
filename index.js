@@ -69,6 +69,7 @@ window.state = state;
 window.addEventListener("load", function() {
   const buttonEl = document.querySelector("#formAddVehicle");
   buttonEl.addEventListener("submit", function() {
+    event.preventDefault();
     const selectedTypeEl = document.querySelector("#selectVehicleType");
     const selectedType = selectedTypeEl.value;
 
